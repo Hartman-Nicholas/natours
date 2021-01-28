@@ -1,0 +1,23 @@
+@mixin bs {
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+}
+
+@mixin bs-1 {
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+}
+
+@mixin bs-2 {
+  box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+}
+
+@mixin bs-hover {
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+}
+
+@mixin bs-active {
+  box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+}
+
+@mixin ts-hover {
+  text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+}

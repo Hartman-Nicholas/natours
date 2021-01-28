@@ -1,0 +1,28 @@
+/*
+
+INITIAL SETUP
+
+Set html font size to 62.5% which is 10px, then use 1 rem = 10px to do
+all padding margin and font calculations this will then adjust with font size adjustment and media queries. 
+
+
+*/
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "pages/home";
+
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+
+@import "layout/header";
+@import "layout/grid";
