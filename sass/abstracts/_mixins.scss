@@ -10,6 +10,26 @@
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
 }
 
+@mixin bs-3 {
+  box-shadow: 0 3rem 6rem rgba($color-black, 0.2);
+}
+
+@mixin bs-3 {
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+}
+
+@mixin bs-4 {
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+}
+
+@mixin bs-5 {
+  box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
+}
+
+@mixin bs-6 {
+  box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
+}
+
 @mixin bs-hover {
   box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
 }
@@ -20,4 +40,11 @@
 
 @mixin ts-hover {
   text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+}
+
+@mixin center-horizontal-vertical {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
