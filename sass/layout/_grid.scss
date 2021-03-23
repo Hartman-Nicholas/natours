@@ -7,6 +7,10 @@
   align-items: center;
   justify-items: center;
   margin: 0 auto;
+
+  @include respond(phone) {
+    gap: 1.5rem;
+  }
 }
 
 .col-1-of-2 {

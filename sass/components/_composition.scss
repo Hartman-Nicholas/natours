@@ -8,19 +8,40 @@
     transition: all 0.2s;
     outline-offset: 2rem;
 
+    @include respond(tab-port) {
+      position: static;
+      width: 200px;
+    }
+
+    @include respond(phone) {
+      display: none;
+    }
+
     &--p1 {
       left: 53%;
       top: -2rem;
+      @include respond(tab-port) {
+        left: 0;
+        top: 0;
+      }
     }
 
     &--p2 {
       right: 2%;
       top: 2rem;
+      @include respond(tab-port) {
+        right: 0;
+        top: 0;
+      }
     }
 
     &--p3 {
       right: 14%;
       top: 10rem;
+      @include respond(tab-port) {
+        right: 0;
+        top: 0;
+      }
     }
 
     &:hover {
